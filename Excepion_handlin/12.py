@@ -11,7 +11,11 @@ b=[1,2]
 
 print(a==b)
 print(a is b)
+print(id(a))
+print(id(b))
 
 c=20
 d=20
 print(c is d)
+print(id(c))
+print(id(d))
